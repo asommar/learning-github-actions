@@ -2,10 +2,6 @@
 
 namespace Actions\Tests;
 
-// './../vendor/autoload.php';
-// './../vendor/autoload.php';
-require_once __DIR__ . '/../vendor/autoload.php';
-
 use Actions\A;
 use PHPUnit\Framework\TestCase;
 use function Actions\getSum;

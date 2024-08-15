@@ -12,12 +12,11 @@
     "autoload": {
         "psr-4": {
             "Actions\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-        "Actions\\Tests\\": "Tests/"
-        }
+        },
+        "files": [
+            "src/Index.php",
+            "Tests/GetSumTest.php"
+        ]
     },
     "scripts": {
         "test": "phpunit"
