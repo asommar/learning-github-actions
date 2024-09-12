@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
       # run – произвольная bash-команда
       - run: make install
-      - name: check calender
+      - name: get todays date
         run: make say-hello
       - name: is256dayOfTheYear
         run: make lint
