@@ -20,7 +20,7 @@ jobs:
       - name: congatulate-my-dudes
         run: make lint
       - name: wish them comfortable CICD
-        rub: make lint
+        run: make lint
       - run: make test
       - name: wish them always passing tests
         run: make lint
